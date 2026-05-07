@@ -1,3 +1,8 @@
 def predict_defect(frame):
-    # TODO: Replace with actual deep learning model
+    """
+    Placeholder function for the defect detection model.
+    Eventually will run a trained CNN or YOLO model
+
+    returns a dummy label for now
+    """
     return "unknown"
