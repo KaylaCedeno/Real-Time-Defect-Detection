@@ -1,6 +1,10 @@
 import cv2
 
 def preprocess(frame):
+    """
+    Basic preprocessing pipeline for defect detection.
+    Add later: thresholding, contour detection, or ML-based preprocessing.
+    """
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     blurred = cv2.GaussianBlur(gray, (5, 5), 0)
     return blurred
